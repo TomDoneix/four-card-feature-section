@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Poppins-Extralight;
+    src: url("/font/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("/font/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("/font/Poppins-SemiBold.ttf");
+}
+
+@theme {
+  --font-poppins-extralight: Poppins-Extralight, sans-serif;
+  --font-poppins-regular: Poppins-Regular, sans-serif;
+  --font-poppins-semiBold: Poppins-SemiBold, sans-serif;
+
+  --color-*: initial;
+  --color__blue: #549ef2;
+  --color__orange: #fcae4a;
+  --color__cyan: #44d3d2;
+  --color__grey400: #6a7178;
+  --color__grey500: #4d4f62;
+  --color__red: #ea5454;
+  --color__white: #ffffff;
+
+  --spacing__100: .5rem;
+  --spacing__200: 1rem;
+  --spacing__300: 1.5rem;
+  --spacing__400: 2rem;
+  --spacing__500: 2.5rem;
+
+  --fontsize__textpreset1: 2.25rem;
+  --fontsize__textpreset4: 0.9375rem;
+  --fontsize__textpreset5: 0.8125rem;
+  --fontsize__textpreset2: 2.25rem;
+  --fontsize__textpreset3: 1.25rem;
+}

@@ -1,0 +1,52 @@
+@import "./theme.css";
+
+article {
+    position: relative;
+    max-width: clamp(19.625rem, 17.4781rem + 9.1603vw, 21.875rem);
+    min-height: 15.625rem;
+    display: grid;
+    gap: var(--spacing__400);
+    padding: var(--spacing__400);
+    background: var(--color__white);
+    border-radius: var(--spacing__100);
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    color: var(--color__grey500);
+}
+
+article::before {
+    content: "";
+    height: .25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: var(--spacing__100);
+    border-top-right-radius: var(--spacing__100);
+    background: var(--color__cyan);
+}
+
+article:nth-child(2)::before {
+    background: var(--color__red);
+}
+
+article:nth-child(3)::before {
+    background: var(--color__orange);
+}
+
+article:nth-child(4)::before {
+    background: var(--color__blue);
+}
+
+article h2 {
+    font-family: var(--font-poppins-semiBold), system-ui, sans-serif;
+    font-size: var(--fontsize__textpreset3);
+}
+
+article p {
+    font-family: var(--font-poppins-extralight), system-ui, sans-serif;
+    font-size: var(--fontsize__textpreset5);
+}
+
+article img {
+    justify-self: end;
+}

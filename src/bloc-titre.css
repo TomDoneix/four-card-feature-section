@@ -1,0 +1,26 @@
+@import "./theme.css";
+
+main > h1,
+main > p {
+    max-width: 32rem;
+    margin: 0 auto;
+    color: var(--color__grey500);
+}
+
+h1 {
+    font-family: var(--font-poppins-extralight);
+    font-size: clamp(1.5rem, 0.7844rem + 3.0534vw, 2.25rem);
+    text-align: center;
+    line-height: 1.35;
+}
+
+h1 span {
+    font-family: var(--font-poppins-semiBold);
+}
+
+main > p {
+    font-family: var(--font-poppins-extralight);
+    font-size: var(--fontsize__textpreset4);
+    text-align: center;
+    margin-top: var(--spacing__200);
+}
